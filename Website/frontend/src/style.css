@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", serif;
+	/* font-family: "Microsoft Himalaya", serif;
+	zoom: 103%; */
+}
+
+.addNewItem {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid black;
+	border-radius: 1rem;
+	padding: 1rem 2rem;
+	zoom: 150%;
+
+	& h3 {
+		text-align: center;
+
+		& button {
+			cursor: pointer;
+			width: 1.5rem;
+			float: right;
+		}
+
+		& .button-page {
+			width: 1rem;
+		}
+	}
+}
+
+.ordersList {
+	zoom: 150%;
+	padding: 1rem;
+
+	& h3 {
+
+		& button {
+			cursor: pointer;
+			width: 1.5rem;
+			margin-left: 0.5rem;
+		}
+
+		& .button-page {
+			width: 1rem;
+		}
+	}
+}
+
+table,
+th,
+td {
+	border: 2px solid black;
+	padding: 1rem;
+}
+
+table {
+	margin-top: 1rem;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+}
+
+th {
+	font-weight: 900;
+}
+
+tbody tr td button {
+	cursor: pointer;
+
+	& img {
+		width: 1rem;
+	}
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+.add-form {
+	text-align: center;
+}
+
+/* .add-form label,
+.add-form input,
+.add-form button {
+	margin: 2rem 0 0 0;
+} */
+
+.add-form div {
+	margin: 1rem 0 0 0;
+}
+
+.add-form input {
+	border: 1px solid black;
+	padding: 0.3rem 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.add-form button {
+	margin-top: 1rem;
+	padding: 0.5rem 2rem;
+}
+
+.add-form .form-labels {
+	display: flex;
+	flex-direction: row;
+
+}

@@ -1,0 +1,15 @@
+{
+	"short_name": "app",
+	"name": "react-app",
+	"icons": [
+		{
+			"src": "logo.png",
+			"type": "image/png",
+			"sizes": "256x256"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#181a1b",
+	"background_color": "#181a1b"
+}
